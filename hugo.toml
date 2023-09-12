@@ -3,3 +3,18 @@ languageCode = 'en-us'
 title = 'Consructive Conversations'
 theme = 'hugo-PaperMod'
 hidefooter = true
+
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+[[menu.main]]
+    name = 'Subscribe'
+    pageRef = '/subscribe'
+    weight = 30
