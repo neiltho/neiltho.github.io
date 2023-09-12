@@ -1,4 +1,5 @@
 baseURL = 'https://neiltho.github.io'
 languageCode = 'en-us'
-title = 'not a scam'
+title = 'Consructive Conversations'
 theme = 'hugo-PaperMod'
+hidefooter = true
