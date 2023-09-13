@@ -5,6 +5,16 @@ theme = 'hugo-PaperMod'
 hidefooter = true
 
 
+[params.profileMode]
+enabled = true
+title = "No Nonsense News For Civil Engineers"
+
+
+[[params.profileMode.buttons]]
+name = "Subscribe"
+url = "/subscribe"
+
+
 [menu]
 [[menu.main]]
     name = 'Home'
@@ -15,6 +25,10 @@ hidefooter = true
     pageRef = '/about'
     weight = 20
 [[menu.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 30
+[[menu.main]]
     name = 'Subscribe'
     pageRef = '/subscribe'
-    weight = 30
+    weight = 40
